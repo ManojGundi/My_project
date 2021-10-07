@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.first_container {
+    background-image: url("https://res.cloudinary.com/dduwztbxu/image/upload/v1633586748/3_vc4jvy.jpg");
+    height: 100vh;
+    width: 90vh;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(10, 20, 40, 0.9);
+    height: 60vh;
+    padding: 20vh;
+}
+
+.logo-image {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.logo-quote {
+    height: 23px;
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    font-size: 30px;
+    color: white;
+}
+
+.quote2 {
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.second-container {
+    height: 100vh;
+    background-color: white;
+    width: 130vh;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: sandybrown;
+}
+
+.btn {
+    color: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(133, 96, 64);
+    border-width: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.login-text {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.input-el {
+    width: 290px;
+    height: 35px;
+    padding-left: 11px;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.1), 0px 6px 14px 0px rgba(3, 1, 1, 0.29);
+    border-width: 0px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+
+.error-el {
+    color: red;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
